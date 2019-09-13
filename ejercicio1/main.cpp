@@ -1,17 +1,13 @@
 #include <iostream>
 #include "Tipos.h"
 using namespace std;
-
 int main() {
-
-entero base=0, entero altura=0;
+int entbase; int entaltura;float area; 
 cout << "\ningrese la base:";
-cin >> base;
+cin >> entbase;
 cout << "\ningrese la altura:";
-cin >> altura;
-
-
-// ToDO
-
+cin >> entaltura;
+area = entbase* entaltura;
+cout <<"El valor del area es "<< area; 
   return 0;
 }
