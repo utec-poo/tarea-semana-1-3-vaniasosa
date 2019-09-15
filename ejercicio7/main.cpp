@@ -1,13 +1,15 @@
 #include <iostream>
 #include "Tipos.h"
 using namespace std;
-
 int main() {
-
-entero numero;
+int numero;
+do{
+cout << "ingrese un numero:";
 cin >> numero;
+} while ((numero<10) or (numero>30)); 
+for (int i=1; i<= numero ; i++)
+ {
+   {cout<< "*";} 
+ }
+} 
 
-// ToDO
-// implemente el algoritmo.
-  return 0;
-}
